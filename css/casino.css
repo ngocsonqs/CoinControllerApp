@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body { padding-top: 80px; }
+@media ( min-width: 768px ) {
+  .bs-component {
+    position: relative;
+  }
+  .bs-component .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 1;
+    display: block;
+  }
+  .nav-tabs {
+    margin-bottom: 15px;
+  }
+  .progress {
+    margin-bottom: 10px;
+  }
+}
+.tweets {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.panel-title {
+  padding: 0px 15px;
+}
+.tweet-time {
+  font-size: 80%;
+  opacity: 0.8;
+}
+.panel-body {
+  text-align: left;
+}
+
+.page-header {
+  text-align: center;
+}
+h1 {
+  font-size: 46px;
+}
+.jumbotron.special {
+  position: relative;
+  min-height: 530px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #add8ff;
+  background-image: url("../img/whizz.png");
+  background-repeat: no-repeat;
+  background-position: -35% center;
+  -webkit-background-size: 70% 70%;
+          background-size: 70%;
+}
+.jumbotron.special .whizz {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 400px;
+  height: 530px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+}
+.jumbotron.special h1,
+.jumbotron.special .h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+}
+
+section.section {
+  padding: 60px 0;
+}
+section.section.section-default {
+  background-color: #f9f9f9;
+}
+section.section.section-inverse {
+  background-color: #fafcff;
+}
+section.section .subtitle {
+  margin-bottom: 24px;
+  text-align: center;
+}
+section.section .subtitle h2 {
+  margin-top: 0;
+}
+
+.rules .rules-box {
+  text-align: center;
+}
+.rules .rules-box .rules-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 60px;
+  line-height: 100px;
+  color: #fff;
+  border-radius: 100%;
+}
+.rules .rules-box .rules-circle.green {
+  background-color: #18bc9c;
+}
+.rules .rules-box .rules-circle.orange {
+  background-color: #f39c12;
+}
+.rules .rules-box .rules-circle.gray {
+  background-color: #2c3e50;
+}
+.rules .rules-box .rules-circle.red {
+  background-color: #e74c3c;
+}
+.rules .rules-box .rules-description h4 {
+  text-align: center;
+}
+.rules .rules-box .rules-description p {
+  text-align: justify;
+}
+
+.getting-started h3 {
+  margin-top: 0;
+}
+
+.japanese-font .well > h3 {
+  margin-top: 24px;
+}
+
+.available-bower {
+  position: relative;
+  overflow: hidden;
+}
+footer {
+  padding: 20px 0;
+  color: #ecf0f1;
+  background-color: #333;
+}
+footer .copyright {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bootstrap-default {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285;
+}
+.bootstrap-default > h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
